@@ -23,14 +23,15 @@ namespace InsuranceProgramPE
         {
             IA.addPremium(txtPremium.Text);
 
-            lstPremiums.DataSource = IA.allPremiums;
-            lstPremiums.Refresh();
+            lstPremiums.DataSource = null;
+            foreach(int i in IA.allPremiums)
+                lstPremiums.item
         }
 
         private void btnSort_Click(object sender, EventArgs e)
         {
+            lstSorted.DataSource = null;
             lstSorted.DataSource = IA.sortPremiums();
-            lstSorted.Refresh();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
