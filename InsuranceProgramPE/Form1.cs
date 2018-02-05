@@ -37,7 +37,11 @@ namespace InsuranceProgramPE
         }
 
         private void setLabels() {
-            lblPremiums.Text = "Total Premiums entered are: ";
+            lblPremiums.Text = "Total Premiums entered are: " + IA.allPremiums.Count().ToString("C");
+            lblMax.Text = "Largest Premium entered is: " + IA.allPremiums.Max().ToString("C");
+            lblMin.Text = "Smallest Premium entered is: " + IA.allPremiums.Min().ToString("C");
+            lblAvg.Text = "The Average Premium is: " + IA.allPremiums.Average().ToString("C");
+            lblTotal.Text = "The total of the premiums is: " + IA.allPremiums.Sum().ToString("C");
         }
     }
 }

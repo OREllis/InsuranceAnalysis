@@ -52,7 +52,7 @@
             // lstSorted
             // 
             this.lstSorted.FormattingEnabled = true;
-            this.lstSorted.Location = new System.Drawing.Point(330, 12);
+            this.lstSorted.Location = new System.Drawing.Point(381, 12);
             this.lstSorted.Name = "lstSorted";
             this.lstSorted.Size = new System.Drawing.Size(120, 134);
             this.lstSorted.TabIndex = 1;
@@ -73,7 +73,7 @@
             this.lblMax.Name = "lblMax";
             this.lblMax.Size = new System.Drawing.Size(137, 13);
             this.lblMax.TabIndex = 3;
-            this.lblMax.Text = "Biggest Premium entered is:";
+            this.lblMax.Text = "Largest Premium entered is:";
             // 
             // lblMin
             // 
@@ -98,9 +98,9 @@
             this.lblTotal.AutoSize = true;
             this.lblTotal.Location = new System.Drawing.Point(140, 133);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(142, 13);
+            this.lblTotal.Size = new System.Drawing.Size(143, 13);
             this.lblTotal.TabIndex = 6;
-            this.lblTotal.Text = "The total of the premiums is: ";
+            this.lblTotal.Text = "The Sum of the premiums is: ";
             // 
             // btnAdd
             // 
@@ -114,7 +114,7 @@
             // 
             // btnSort
             // 
-            this.btnSort.Location = new System.Drawing.Point(251, 157);
+            this.btnSort.Location = new System.Drawing.Point(286, 157);
             this.btnSort.Name = "btnSort";
             this.btnSort.Size = new System.Drawing.Size(97, 23);
             this.btnSort.TabIndex = 8;
@@ -124,7 +124,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(375, 155);
+            this.btnExit.Location = new System.Drawing.Point(426, 157);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 9;
@@ -134,7 +134,7 @@
             // 
             // txtPremium
             // 
-            this.txtPremium.Location = new System.Drawing.Point(125, 159);
+            this.txtPremium.Location = new System.Drawing.Point(154, 160);
             this.txtPremium.Name = "txtPremium";
             this.txtPremium.Size = new System.Drawing.Size(100, 20);
             this.txtPremium.TabIndex = 10;
