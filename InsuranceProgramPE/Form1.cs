@@ -12,30 +12,32 @@ namespace InsuranceProgramPE
 {
     public partial class Form1 : Form
     {
-        public Form1()
-        {
+        public Form1() {
             InitializeComponent();
         }
 
         InsuranceAnalysis IA = new InsuranceAnalysis();
 
-        private void btnAdd_Click(object sender, EventArgs e)
-        {
+        private void btnAdd_Click(object sender, EventArgs e) {
             IA.addPremium(txtPremium.Text);
 
             lstPremiums.DataSource = null;
-            lstPremiums.DataSource = String.Format("{0:C}", IA.allPremiums.ToString());
+            lstPremiums.DataSource = IA.allPremiums.ConvertAll<string>(x => x.ToString("C"));
+
+            setLabels();
         }
 
-        private void btnSort_Click(object sender, EventArgs e)
-        {
+        private void btnSort_Click(object sender, EventArgs e) {
             lstSorted.DataSource = null;
-            lstSorted.DataSource = String.Format("{0:C}", IA.sortPremiums());
+            lstSorted.DataSource = (IA.sortPremiums()).ConvertAll<string>(x => x.ToString("C"));
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
-        {
+        private void btnExit_Click(object sender, EventArgs e) {
             Application.Exit();
+        }
+
+        private void setLabels() {
+            lblPremiums.Text = "Total Premiums entered are: ";
         }
     }
 }

@@ -52,7 +52,7 @@
             // lstSorted
             // 
             this.lstSorted.FormattingEnabled = true;
-            this.lstSorted.Location = new System.Drawing.Point(285, 12);
+            this.lstSorted.Location = new System.Drawing.Point(330, 12);
             this.lstSorted.Name = "lstSorted";
             this.lstSorted.Size = new System.Drawing.Size(120, 134);
             this.lstSorted.TabIndex = 1;
@@ -60,47 +60,47 @@
             // lblPremiums
             // 
             this.lblPremiums.AutoSize = true;
-            this.lblPremiums.Location = new System.Drawing.Point(139, 13);
+            this.lblPremiums.Location = new System.Drawing.Point(140, 12);
             this.lblPremiums.Name = "lblPremiums";
-            this.lblPremiums.Size = new System.Drawing.Size(35, 13);
+            this.lblPremiums.Size = new System.Drawing.Size(142, 13);
             this.lblPremiums.TabIndex = 2;
-            this.lblPremiums.Text = "label1";
+            this.lblPremiums.Text = "Total Premiums entered are: ";
             // 
             // lblMax
             // 
             this.lblMax.AutoSize = true;
-            this.lblMax.Location = new System.Drawing.Point(138, 35);
+            this.lblMax.Location = new System.Drawing.Point(140, 40);
             this.lblMax.Name = "lblMax";
-            this.lblMax.Size = new System.Drawing.Size(35, 13);
+            this.lblMax.Size = new System.Drawing.Size(137, 13);
             this.lblMax.TabIndex = 3;
-            this.lblMax.Text = "label2";
+            this.lblMax.Text = "Biggest Premium entered is:";
             // 
             // lblMin
             // 
             this.lblMin.AutoSize = true;
-            this.lblMin.Location = new System.Drawing.Point(138, 57);
+            this.lblMin.Location = new System.Drawing.Point(140, 70);
             this.lblMin.Name = "lblMin";
-            this.lblMin.Size = new System.Drawing.Size(35, 13);
+            this.lblMin.Size = new System.Drawing.Size(144, 13);
             this.lblMin.TabIndex = 4;
-            this.lblMin.Text = "label3";
+            this.lblMin.Text = "Smallest Premium entered is: ";
             // 
             // lblAvg
             // 
             this.lblAvg.AutoSize = true;
-            this.lblAvg.Location = new System.Drawing.Point(138, 81);
+            this.lblAvg.Location = new System.Drawing.Point(138, 103);
             this.lblAvg.Name = "lblAvg";
-            this.lblAvg.Size = new System.Drawing.Size(35, 13);
+            this.lblAvg.Size = new System.Drawing.Size(128, 13);
             this.lblAvg.TabIndex = 5;
-            this.lblAvg.Text = "label4";
+            this.lblAvg.Text = "The Average Premium is: ";
             // 
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
-            this.lblTotal.Location = new System.Drawing.Point(138, 108);
+            this.lblTotal.Location = new System.Drawing.Point(140, 133);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(35, 13);
+            this.lblTotal.Size = new System.Drawing.Size(142, 13);
             this.lblTotal.TabIndex = 6;
-            this.lblTotal.Text = "label5";
+            this.lblTotal.Text = "The total of the premiums is: ";
             // 
             // btnAdd
             // 
@@ -114,7 +114,7 @@
             // 
             // btnSort
             // 
-            this.btnSort.Location = new System.Drawing.Point(227, 155);
+            this.btnSort.Location = new System.Drawing.Point(251, 157);
             this.btnSort.Name = "btnSort";
             this.btnSort.Size = new System.Drawing.Size(97, 23);
             this.btnSort.TabIndex = 8;
@@ -124,7 +124,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(330, 155);
+            this.btnExit.Location = new System.Drawing.Point(375, 155);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 9;
@@ -134,7 +134,7 @@
             // 
             // txtPremium
             // 
-            this.txtPremium.Location = new System.Drawing.Point(104, 157);
+            this.txtPremium.Location = new System.Drawing.Point(125, 159);
             this.txtPremium.Name = "txtPremium";
             this.txtPremium.Size = new System.Drawing.Size(100, 20);
             this.txtPremium.TabIndex = 10;
@@ -143,7 +143,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(417, 212);
+            this.ClientSize = new System.Drawing.Size(513, 212);
             this.Controls.Add(this.txtPremium);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnSort);
