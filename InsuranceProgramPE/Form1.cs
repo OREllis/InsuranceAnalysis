@@ -27,13 +27,14 @@ namespace InsuranceProgramPE
             lstPremiums.DataSource = null;
             lstPremiums.DataSource = IA.allPremiums;
 
+            //display list info in labels
             setLabels();
         }
 
         private void btnSort_Click(object sender, EventArgs e) {
             //empty listbox
             lstSorted.DataSource = null;
-            lstSorted.DataSource = (IA.sortPremiums());
+            lstSorted.DataSource = IA.sortPremiums();
         }
 
         private void btnExit_Click(object sender, EventArgs e) {
@@ -41,8 +42,7 @@ namespace InsuranceProgramPE
         }
 
         private void setLabels() {
-            //setting label text to itself with the returned values of their respective functions converted to 
-            //currency contatenated to the end of it
+            //setting label text to itself + returned values respective functions converted to currency
             lblPremiums.Text = "Total Premiums entered are: " + IA.allPremiums.Count();
             lblMax.Text = "Largest Premium entered is: " + IA.allPremiums.Max().ToString("C");
             lblMin.Text = "Smallest Premium entered is: " + IA.allPremiums.Min().ToString("C");
