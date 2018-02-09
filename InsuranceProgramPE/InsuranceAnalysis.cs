@@ -10,7 +10,7 @@ namespace InsuranceProgramPE
     {
         public List<decimal> allPremiums = new List<decimal>();
 
-
+        
         public void addPremium(string premiumString) {
             //converts string to decimal, adds converted string to List
             allPremiums.Add(decimal.Parse(premiumString));
