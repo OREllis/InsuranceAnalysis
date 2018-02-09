@@ -12,6 +12,7 @@ namespace InsuranceProgramPE
 
 
         public void addPremium(string premiumString) {
+            //converts string to decimal, adds converted string to List
             allPremiums.Add(decimal.Parse(premiumString));
         }
 
