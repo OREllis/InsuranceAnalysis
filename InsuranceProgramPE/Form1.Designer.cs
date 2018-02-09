@@ -43,6 +43,7 @@
             // 
             // lstPremiums
             // 
+            this.lstPremiums.FormatString = "C2";
             this.lstPremiums.FormattingEnabled = true;
             this.lstPremiums.Location = new System.Drawing.Point(12, 12);
             this.lstPremiums.Name = "lstPremiums";
@@ -51,6 +52,7 @@
             // 
             // lstSorted
             // 
+            this.lstSorted.FormatString = "C2";
             this.lstSorted.FormattingEnabled = true;
             this.lstSorted.Location = new System.Drawing.Point(381, 12);
             this.lstSorted.Name = "lstSorted";
