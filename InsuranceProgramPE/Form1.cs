@@ -44,10 +44,10 @@ namespace InsuranceProgramPE
             //setting label text to itself with the returned values of their respective functions converted to 
             //currency contatenated to the end of it
             lblPremiums.Text = "Total Premiums entered are: " + IA.allPremiums.Count();
-            lblMax.Text = "Largest Premium entered is: " + IA.allPremiums.Max();
-            lblMin.Text = "Smallest Premium entered is: " + IA.allPremiums.Min();
-            lblAvg.Text = "The Average Premium is: " + IA.allPremiums.Average();
-            lblTotal.Text = "The total of the premiums is: " + IA.allPremiums.Sum();
+            lblMax.Text = "Largest Premium entered is: " + IA.allPremiums.Max().ToString("C");
+            lblMin.Text = "Smallest Premium entered is: " + IA.allPremiums.Min().ToString("C");
+            lblAvg.Text = "The Average Premium is: " + IA.allPremiums.Average().ToString("C");
+            lblTotal.Text = "The total of the premiums is: " + IA.allPremiums.Sum().ToString("C");
         }
     }
 }
